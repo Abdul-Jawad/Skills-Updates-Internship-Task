@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #34979e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.content{
+   width: 25%;
+   margin: 30px 0  0 37%;
+
+}
+.card {
+    border-radius: 10px;
+    background-color: rgb(90, 141, 113);
+
+}
+
+.head{
+  text-align: center;
+
+}
+
+img{
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+}
+
+.upload{
+color: #fff;
+padding: 4px;
+background-color:#34979e ;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+width: 50%;
+}
+
+.upload:hover{
+    box-shadow: 1px 1px 3px #000;
+}
+
+#addpic{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
