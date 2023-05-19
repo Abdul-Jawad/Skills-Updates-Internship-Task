@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(148, 31, 226, 0.5);
+}
+
+table,th,td{
+    border: 2px solid;
+    width: 500px;
+    margin: 20px auto;
+    font-size: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+tr:nth-child(2n+1){
+    background-color: #eee;
+}
+
+.avg{
+    background-color: rgba(209, 67, 67, 0.479);
+}
